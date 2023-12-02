@@ -2073,7 +2073,10 @@
         "openSetting": false,
         "feedback": false,
         "chooseAvatar": false,
-        "agreePrivacyAuthorization": false
+        "agreePrivacyAuthorization": false,
+        "['getPhoneNumber|agreePrivacyAuthorization']": false,
+        "['getRealtimePhoneNumber|agreePrivacyAuthorization']": false,
+        "['getUserInfo|agreePrivacyAuthorization']": false
       },
       "hover-class": true,
       "hover-stop-propagation": false,
@@ -2681,7 +2684,17 @@
         "center": true,
         "end": true,
         "nearest": true
-      }
+      },
+      "clip": false,
+      "min-drag-distance": false,
+      "padding": false,
+      "refresher-two-level-enabled": false,
+      "refresher-two-level-triggered": false,
+      "refresher-two-level-threshold": false,
+      "refresher-two-level-close-threshold": false,
+      "refresher-two-level-scroll-enabled": false,
+      "refresher-ballistic-refresh-enabled": false,
+      "refresher-two-level-pinned": false
     },
     "share-element": {
       "key": false,
@@ -2725,6 +2738,7 @@
     "slot": {
       "name": false
     },
+    "snapshot": false,
     "sticky-header": false,
     "sticky-section": {
       "push-pinned-header": false
